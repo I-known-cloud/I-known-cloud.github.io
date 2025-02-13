@@ -59,6 +59,7 @@ education:
       GPA: 3.2486/4.5000
       
       论文 "Post-quantum era: A new data privacy protection scheme combining static circular dispersion scramble and chaotic cryptography" 已投稿至SCI三区，Physica Scripta，IF 2.6。
+      
       论文 "A novel quantumcryptographic securityscheme:Using chaoticS-box and Quantumwalks to protect imageprivacy" 已投稿至SCI二区Top，Applied Mathematical Modelling，IF 4.4。
     button:
       text: 'Read Thesis'
@@ -69,25 +70,25 @@ education:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 技术技能
     items:
-      - name: Python
+      - name: Web开发
         description: ''
-        percent: 80
+        percent: 90
         icon: code-bracket
-      - name: Data Science
+      - name: 数据挖掘
         description: ''
-        percent: 100
+        percent: 60
         icon: chart-bar
-      - name: SQL
+      - name: 后端开发
         description: ''
-        percent: 40
+        percent: 90
         icon: circle-stack
-  - name: Hobbies
+  - name: 爱好
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: 登山
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -95,18 +96,20 @@ skills:
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: 摄影
         description: ''
         percent: 80
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Python
+    percent: 90
+  - name: Java
+    percent: 80
+  - name: Cpp
+    percent: 80
+  - name: Others
+    percent: 55
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -115,29 +118,50 @@ languages:
 awards:
   - title: 全国大学生数学建模竞赛
     url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+    date: '2023-09-08'
+    awarder: 高教社
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
+      国家一等奖
+  - title: 全国大学生数学竞赛
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
     icon: edx
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
+      省级二等奖
+  - title: 中国大学生计算机设计大赛
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      不能说的秘密！
+  - title: 华为ICT信息化大赛
+    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    certificate_url: https://www.datacamp.com
+    date: '2023-01-21'
+    awarder: datacamp
+    icon: datacamp
+    summary: |
+      不能说的秘密！
+  - title: 网络技术挑战赛
+    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    certificate_url: https://www.datacamp.com
+    date: '2023-01-21'
+    awarder: datacamp
+    icon: datacamp
+    summary: |
+      东北赛区三等奖
+  - title: 蓝桥杯
+    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    certificate_url: https://www.datacamp.com
+    date: '2023-01-21'
+    awarder: datacamp
+    icon: datacamp
+    summary: |
+      最不能说的秘密！
 ---
 
 ## 关于我
