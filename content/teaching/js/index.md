@@ -10,7 +10,7 @@ image:
   caption: Word + Google Scholar + EndNote
 ---
 
-# 如何使用 Google Scholar + EndNote 在 Word 环境
+
 
 ## 所需背景
 

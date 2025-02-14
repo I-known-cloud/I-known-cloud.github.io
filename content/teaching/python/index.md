@@ -1,140 +1,98 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
-date: 2023-10-24
+title: 如何在 LaTeX 环境中引用 Reference
+summary: Easily learn in 3 minutes!
+date: 2025-02-01
 type: docs
 math: false
 tags:
-  - Python
+  - 技能
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 如何在 LaTeX 环境中引用 Reference
+---
+# 如何在 LaTeX 环境中引用 Reference
+
+本文介绍在撰写英文论文时，使用出版社提供的 LaTeX 模板进行文献引用的方法。
+
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+## 步骤 1：寻找 Reference
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+在查找文献时，可以使用 **EndNote**、**Zotero** 等文献管理软件获取引文名。例如：
+![](image.png)
+1. 复制引文名后，在 **Google Scholar** 中粘贴搜索。
+![](image-1.png)
+![](image-2.png)
+![](image-3.png)
+![](image-4.png)
+2. 如果只知道 **DOI 号**，但不知道文献名，可以访问 [AbleSci](https://www.ablesci.com/) 进行查询。
+![](image-5.png)
+![](image-6.png)
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+---
 
-## Video
+## 步骤 2：创建 LaTeX 项目
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+在 **Overleaf**、**TexPage** 等在线 LaTeX 编译器中，新建一个项目，并创建 **2 个文件**：
+- `BibTex.bib`
+- `BibTexRf.bbl`
+![](image-7.png)
+在BibTex.bib文件中粘贴步骤复制的内容
+![](image-8.png)
 
-{{< youtube D2vj0WcvH5c >}}
+---
 
-**Youtube**:
+## 步骤 3：添加引用
 
-    {{</* youtube w7Ft2ymGmfc */>}}
+1. 在 `BibTex.bib` 文件中粘贴 **步骤 1** 复制的参考文献信息。
+2. **注意**：LaTeX 编译时，文献的排列顺序依赖于 `.bib` 文件中文献的先后顺序。
+![](image-9.png)
+![](image-10.png)
 
-**Bilibili**:
+---
 
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
+## 步骤 4：编译 `.bbl` 文件
 
-**Video file**
-
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
-
-    {{</* video src="my_video.mp4" controls="yes" */>}}
-
-## Podcast
-
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
-
-    {{</* audio src="ambient-piano.mp3" */>}}
-
-Try it out:
-
-{{< audio src="ambient-piano.mp3" >}}
-
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
-
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
-
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
+1. 在 `BibTexRf.bbl` 文件中写入正确的 BibTeX 代码，然后进行编译。
+2. **可能遇到的问题**：
+   - **Repeat entry**（重复条目）：导致只能编译出一个引文。
+   - **解决方案**：修改属性名。例如：
+     ```bibtex
+     @article{wang2020imageEncryption,
+       author = {Wang, XX and Li, YY},
+       title  = {Image Encryption Method},
+       year   = {2020},
+       journal= {Science Journal}
+     }
+     ```
+   - 将 `wang2020image` 改为 `wang2020imageEncryption`，避免重复。
+![](image-11.png)
 
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
+---
 
-renders as
+## 步骤 5：在模板中加入参考文献
 
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
+1. 编译完成后，导出 `.bbl` 文件。
+![](image-12.png)
+2. 在 **桌面右键** 用 **记事本** 打开（系统默认可能无法直接打开）。
+![alt text](image-13.png)
+![alt text](image-14.png)
+3. **复制全部内容** 并粘贴到 `.tex` 文件末尾。
+![alt text](image-15.png)
 
-## Inline Images
 
-```go
-{{</* icon name="python" */>}} Python
-```
+---
 
-renders as
+## 步骤 6：在文章中引用参考文献
 
-{{< icon name="python" >}} Python
+
+- **单一引用**：
+  ```latex
+  \cite{wang2020imageEncryption}
+- **多重引用（如 [7-11]）**：
+  ```latex
+  \cite{ref7, ref8, ref9, ref10, ref11}
+
+
 
 ## Did you find this page helpful? Consider sharing it 🙌
