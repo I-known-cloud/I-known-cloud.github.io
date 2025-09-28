@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吴则睿
+title: Zerui Wu
 
 # Name pronunciation (optional)
 name_pronunciation: Wu Ze Rui
@@ -24,7 +24,7 @@ role: Undergraduate Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 信安联盟实验室
+  - name: Xin'an Alliance Lab
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -46,21 +46,23 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - 量子密码学 Quantum Cryptography
-  - 量子图像处理 Quantum Image Processing
-  - 量子机器学习 Quantum Machine Learning
-  - 量子信息安全 Quantum Information Security
+  - Quantum Cryptography
+  - Quantum Image Processing
+  - Quantum Machine Learning
+  - Quantum Information Security
 education:
   - area: Bachelor of Computer Science and Technology
     institution: Liaoning Technical University
     date_start: 2022-09-01
     date_end: 2026-07-01
     summary: |
-      GPA: 3.2486/4.5000
+      GPA: 3.37/4.50 (Top 1% Overall ranking)
       
-      论文 "Post-quantum era: A new data privacy protection scheme combining static circular dispersion scramble and chaotic cryptography" 已投稿至SCI三区，Physica Scripta，IF 2.6。
+      Paper "Post-quantum era: A new data privacy protection scheme combining static circular dispersion scramble and chaotic cryptography" Accepted
+
+      Paper "Image encryption algorithm using 3-D non-equilateral Arnold transform combined with chaos matrix" Accepted
       
-      论文 "A novel quantumcryptographic securityscheme:Using chaoticS-box and Quantumwalks to protect imageprivacy" 已投稿至SCI二区Top，Applied Mathematical Modelling，IF 4.4。
+      Paper "A novel quantumcryptographic securityscheme:Using chaoticS-box and Quantumwalks to protect imageprivacy" Under Review
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
@@ -165,6 +167,6 @@ awards:
       最不能说的秘密！
 ---
 
-## 关于我
+## About me
 
-吴则睿，目前是一名就读在辽宁工程技术大学电子与信息工程学院，计算机科学与技术专业并学习于信安联盟实验室的大三本科生。他感兴趣的研究领域包括量子密码学、量子图像处理、量子机器学习以及量子信息安全。当前，他的研究重点聚焦于量子信息安全，并在该方向上深入探索。
+Zerui Wu is currently a forth-year undergraduate student at the School of Electronics and Information Engineering, Liaoning Technical University, majoring in Computer Science and Technology and studying in the Xin'an Alliance Laboratory. His research interests include quantum cryptography, quantum image processing, quantum machine learning, and quantum information security. At present, his research focuses on quantum information security, where he is conducting in-depth exploration.
