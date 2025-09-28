@@ -118,53 +118,53 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: 全国大学生数学建模竞赛
+  - title: National College Student Mathematical Modeling Competition
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-09-08'
-    awarder: 高教社
+    awarder: Higher Education Press
     icon: coursera
     summary: |
-      国家一等奖
-      在高教社杯全国大学生数学建模竞赛中，C题通常是偏向机理分析和规划问题的研究。2023年的C题致力于解决商超蔬菜类商品的定价以及补货的问题。本项目采用了spearman相关性分析模型找出了蔬菜商品间的相互关系。接着采用短时间预测的灰色预测模型，得出未来一周的销售额趋势。在此基础上本文建立了线性近似束优化模型，求解得出收益最大时，题目中的未来一周和未来一天各蔬菜品类的总进货量之和，以及有关函数表达式和约束条件求出各单品的销售额及批发价格，并对该模型进行了灵敏度检验，验证了其稳定性。
-  - title: 全国大学生数学竞赛
+      National First Prize
+      In the National College Student Mathematical Modeling Competition of the Higher Education Society Cup, C questions are usually biased towards the study of mechanism analysis and planning problems. Question C in 2023 is dedicated to solving the problem of pricing and replenishment of vegetable products in supermarkets. In this project, the Spearman correlation analysis model was used to find out the interrelationship between vegetable commodities. The gray forecast model with short-term forecasting is then used to derive the sales trend for the coming week. On this basis, a linear approximate beam optimization model is established, and the sum of the total purchases of each vegetable category in the next week and the next day in the problem, as well as the relevant function expressions and constraints, are calculated to find the sales and wholesale price of each single product, and the sensitivity test of the model is carried out to verify its stability.
+  - title: National College Student Mathematics Competition
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
     icon: edx
     summary: |
-      省级二等奖
-  - title: 中国大学生计算机设计大赛
+      Provincial second prize
+  - title: China College Student Computer Design Competition
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
     icon: datacamp
     summary: |
-      不能说的秘密！
-  - title: 华为ICT信息化大赛
+      Provincial third prize
+  - title: Huawei ICT Informatization Competition
+    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    certificate_url: https://www.datacamp.com
+    date: '2025-01-21'
+    awarder: datacamp
+    icon: datacamp
+    summary: |
+      Provincial third prize
+  - title: Network Technology Challenge
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
     icon: datacamp
     summary: |
-      不能说的秘密！
-  - title: 网络技术挑战赛
+      Third prize in the Northeast Division
+  - title: Lanqiao Cup
     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
     icon: datacamp
     summary: |
-      东北赛区三等奖
-  - title: 蓝桥杯
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      最不能说的秘密！
+      Provincial third prize
 ---
 
 ## About me
